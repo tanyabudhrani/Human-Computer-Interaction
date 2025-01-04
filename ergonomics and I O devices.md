@@ -1,12 +1,9 @@
 # ergonomics and I/O devices
 
-Created: October 19, 2024 4:01 PM
-Tags: LEC
-
 # ergonomics
 
-- ergonomics (or human factors) is the scientific discipline concerned with the understanding of the interactions among human and other elements of a system, and **the profession that applies theory, principles, data and methods to design in order to optimize human well-being and overall system performance**
-    - design for humans in interaction with software and hardware, so to **optimize human well-being and overall system performance**
+- ergonomics (or human factors) is the scientific discipline concerned with the understanding of the interactions among humans and other elements of a system, and **the profession that applies theory, principles, data and methods to design in order to optimize human well-being and overall system performance**
+    - design for humans in interaction with software and hardware, so as to **optimize human well-being and overall system performance**
 
 ## system performance
 
@@ -17,7 +14,7 @@ Tags: LEC
 
 ## physical
 
-- physical ergonomics is concerned with human anatomy, anthropometry (the measurement of human aspects), physiology and bio mechanical characteristics as they relate to **physical activity in work or daily life**
+- physical ergonomics is concerned with human anatomy, anthropometry (the measurement of human aspects), physiology and biomechanical characteristics as they relate to **physical activity in work or daily life**
 
 ## cognitive
 
@@ -34,13 +31,10 @@ Tags: LEC
 | user orientation | **design and application of tools, procedures, and systems must be user-oriented**, rather than just “task” oriented |
 | --- | --- |
 | diversity | **recognition of diversity in human capabilities and limitations**, rather than “stereotyping” workers/users |
-| effect on humans | tools, procedures, and systems are not “inert”, **but do influence human behavior and well-being** |
+| effect on humans | tools, procedures, and systems are not “inert”, **but do influence human behaviour and well-being** |
 | measurements | **empirical information and evaluation is key in design process**, rather than just use of “common sense” |
 | scientific methods | **test and retest hypothesis with real data**, rather than “anecdotal” evidence or “good estimates” |
 | system  | **objects, procedures, environments, and people are interconnected**, affect one another, and do not exist in “isolation” |
-
-![Screenshot 2024-10-19 at 4.09.27 PM.png](ergonomics%20and%20I%20O%20devices%20124b756f81228011ac33c521b91a3d30/Screenshot_2024-10-19_at_4.09.27_PM.png)
-
 > together, **I/O devices form the ‘user interface’**
 > 
 
@@ -118,16 +112,18 @@ Tags: LEC
 - often used in **usability and physiology experiments** (for recording and analysis of user attention)
 - sometimes **used as input device** (e.g., selection of commands or letters by looking at them)
 
-| heatmap | **red - more fixations
-green - less fixations** |
-| --- | --- |
-| scanpath | **saccades** - **rapid, ballistic movements of the eyes** that abruptly **change the point of fixation**
 
-**smooth pursuit movements** - **much slower tracking movements** of the eyes designed to keep a **moving stimulus on the fovea**
+| **heatmap** | **explanation** |
+|-------------|-----------------|
+| **red**     | indicates more fixations. |
+| **green**   | indicates fewer fixations. |
 
-**(con)vergence movements** - **align the fovea of each eye with targets** located at **different distances** from the observer
-
-**vestibulo-ocular movements** - **stabilize the eyes relative to the external world**, thus compensating for head movements |
+| **scanpath**                 | **explanation** |
+|------------------------------|-----------------|
+| **saccades**                 | rapid, ballistic movements of the eyes that abruptly change the point of fixation |
+| **smooth pursuit movements** | slower tracking movements of the eyes designed to keep a moving stimulus on the fovea |
+| **(con)vergence movements**  | align the fovea of each eye with targets located at different distances from the observer |
+| **vestibulo-ocular movements** | stabilize the eyes relative to the external world, compensating for head movements |
 
 ## headtracker
 
@@ -137,8 +133,6 @@ green - less fixations** |
     - to operate a key, the user must locate the cursor, and then blow on a blow switch in the headset mouthpiece— this type of device can be used by severely impaired users
 
 ## brain computer interfaces
-
-![Screenshot 2024-10-19 at 4.22.06 PM.png](ergonomics%20and%20I%20O%20devices%20124b756f81228011ac33c521b91a3d30/Screenshot_2024-10-19_at_4.22.06_PM.png)
 
 ### affective computing
 
@@ -157,19 +151,13 @@ green - less fixations** |
 
 ## visual
 
-| character-based displays | liquid- rystal displays (LCDs), flat-panel displays (FPDs)
+| **display Type**                 | **Explanation**                                                                                                  |
+|----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| **character-based displays**     | liquid-crystal displays (LCDs), flat-panel displays (FPDs). Used in stationary devices, telephones, calculators, etc. |
+| **graphics displays**            | cathode ray tubes (CRTs), LCDs, other FPDs, and 3D displays. high-resolution graphic displays in stationary output devices (e.g., cockpits, helmet-mounted displays). |
+| **printing devices**             | includes **color vs. b/w**, dot matrix, laser jet, inkjet printers, as well as fax machines, plotters (colored pens), and 3D printers. |
+| **microfiche, microfilm, videotape** | requires old-school equipment to read.                                                                          |
 
-**used in stationary devices, in telephones, calculators, etc** |
-| --- | --- |
-| graphics displays | cathode ray tubes (CRTs), LCDs, and other FPDs, 3D
-
-**high-resolution graphic displays in stationary output devices (e.g., cockpits, helmet-mounted displays)** |
-| printing devices | **color vs. b/w**, dot matrix, laser jet, inkjet
-
-fax, plotters (colored pens)
-
-3D printing |
-| microfiche, micro-film, videotape | require old-school equipment to read |
 
 ## haptic (tactile)
 
@@ -204,7 +192,6 @@ fax, plotters (colored pens)
     - the virtouch mouse also **reacts on visual imagery by using contrasts** (dark colors against light colors) to offer a tactile representation (geographical maps)
     - together, these two functions may be used to **scan a display screen for text, layout, but is harder for images**
 
-![Screenshot 2024-10-28 at 12.26.34 PM.png](ergonomics%20and%20I%20O%20devices%20124b756f81228011ac33c521b91a3d30/Screenshot_2024-10-28_at_12.26.34_PM.png)
 
 > when evaluating the point-localization threshold, **a stimulus is presented to the skin, followed in time by a second stimulus that may or may not be applied to the same site**
 > 
@@ -219,9 +206,7 @@ fax, plotters (colored pens)
     - **non-speech sounds to inform about current events** (e.g., empty trash, new mail, move, copy, delete)
     - should be optional (annoying, may disturb others)
     - corporate earcons (auditory logos), commercial brand-lining, distinctive music (e.g., mac startup sound, windows launch sound, “intel inside”
-    
-    ![Screenshot 2024-10-28 at 12.37.53 PM.png](ergonomics%20and%20I%20O%20devices%20124b756f81228011ac33c521b91a3d30/Screenshot_2024-10-28_at_12.37.53_PM.png)
-    
+   
 
 | compatibility | signals should correspond to **natural sound experience** |
 | --- | --- |
