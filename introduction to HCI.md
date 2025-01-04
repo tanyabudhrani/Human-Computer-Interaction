@@ -1,8 +1,5 @@
 # introduction to HCI
 
-Created: August 29, 2024 11:32 AM
-Tags: LEC
-
 ## importance of HCI
 
 - 63% of large software projects go over costs
@@ -19,8 +16,6 @@ Tags: LEC
         - inappropriate dialog flow
         - not easily used
         - never tested until too late
-
-![Screenshot 2024-08-29 at 11.51.50 AM.png](introduction%20to%20HCI%2040e023b601e74e33882245ec97a29008/Screenshot_2024-08-29_at_11.51.50_AM.png)
 
 - consequences of bad designs are large
     - **costly errors** in serious systems
@@ -63,8 +58,6 @@ Tags: LEC
 - **IBM SSEC** or selective sequence electronic calculator - electromechanical computer
 - **RAND corporation** home computer
 - **IBM 7030**, transistorized supercomputer
-    
-    ![Screenshot 2024-09-03 at 7.15.06 PM.png](introduction%20to%20HCI%2040e023b601e74e33882245ec97a29008/Screenshot_2024-09-03_at_7.15.06_PM.png)
     
 - **programma 101** — first PC ever
 
