@@ -1,8 +1,5 @@
 # visual perception and computer graphic
 
-Created: September 21, 2024 11:43 AM
-Tags: LEC
-
 # visual system
 
 ## input: perception
@@ -85,13 +82,9 @@ color is the **human interpretation of different energetic frequencies** (short 
 > **optic flow** is the **brain’s cue to calculate position in space**
 > 
 
-![Screenshot 2024-09-21 at 11.59.42 AM.png](visual%20perception%20and%20computer%20graphic%20758988f8f0d84802a0e67b9e45b86ee7/Screenshot_2024-09-21_at_11.59.42_AM.png)
-
 - brain interprets depth as: **short path is behind long path, therefore there must be depth**
     - **the** **object closest to the eye moves the most because the retinal path is longer**
     - the direction in which an object leaves the visual field indicates the **direction of object motion in the physical world**— this, direction of leaving the visual half-field cues object motion
-
-![Screenshot 2024-09-21 at 12.02.35 PM.png](visual%20perception%20and%20computer%20graphic%20758988f8f0d84802a0e67b9e45b86ee7/Screenshot_2024-09-21_at_12.02.35_PM.png)
 
 # pattern recognition
 
@@ -132,13 +125,9 @@ color is the **human interpretation of different energetic frequencies** (short 
 | saccades | **eye jumps**, not just into reading direction but back and forth (and some up and down) |
 | fixations | **perception and comprehension takes place only during fixations** |
 
-![Screenshot 2024-10-02 at 12.50.32 PM.png](visual%20perception%20and%20computer%20graphic%20758988f8f0d84802a0e67b9e45b86ee7/Screenshot_2024-10-02_at_12.50.32_PM.png)
-
 - the less you know as a user (novice), **the more you rely on context**
     - if no context is provided, the dictionary meanings become active
     - like computers, users become error-prone with ambiguities— **semantic priming is the solution**
-
-![Screenshot 2024-10-02 at 12.53.12 PM.png](visual%20perception%20and%20computer%20graphic%20758988f8f0d84802a0e67b9e45b86ee7/Screenshot_2024-10-02_at_12.53.12_PM.png)
 
 ### ambiguity: one word pointing at more meaning
 
@@ -152,18 +141,13 @@ use context clues
 
 ## CRAP
 
-| contrast | make different things different
-bring out dominant elements
-mute lesser elements
-create dynamism |
-| --- | --- |
-| repetition | repeat design throughout
-be consistent |
-| create unity | alignment
-visually connect elements
-create visual flow |
-| proximity | group related elements
-separate unrelated ones |
+| **principle**   | **description**                                                                 |
+|------------------|---------------------------------------------------------------------------------|
+| **contrast**     | - make different things different <br> - bring out dominant elements <br> - mute lesser elements <br> - create dynamism |
+| **repetition**   | - repeat design elements throughout <br> - be consistent                       |
+| **alignment**    | - visually connect elements <br> - create visual flow                         |
+| **proximity**    | - group related elements <br> - separate unrelated ones                       |  
+
 
 ## grids
 
