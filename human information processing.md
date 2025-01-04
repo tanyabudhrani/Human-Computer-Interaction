@@ -1,13 +1,6 @@
 # human information processing
 
-Created: August 30, 2024 12:23 PM
-Tags: LEC
-
-![Screenshot 2024-08-30 at 12.24.04 PM.png](human%20information%20processing%203c5ad3730c3b4269a8e64daf7a4acb82/Screenshot_2024-08-30_at_12.24.04_PM.png)
-
 # the human information process
-
-![Screenshot 2024-08-30 at 12.25.00 PM.png](human%20information%20processing%203c5ad3730c3b4269a8e64daf7a4acb82/Screenshot_2024-08-30_at_12.25.00_PM.png)
 
 ## input: perception
 
@@ -86,14 +79,10 @@ Tags: LEC
 | sub goal | **middle-term goal** along the way to solving a problem  |
 | problem space | **short, middle, and long term goal states** and the information needed at each step  |
 
-![Screenshot 2024-08-30 at 12.44.29 PM.png](human%20information%20processing%203c5ad3730c3b4269a8e64daf7a4acb82/Screenshot_2024-08-30_at_12.44.29_PM.png)
-
 - solving a problem: **X should change so to overlap Y**
     - often, goal satisfaction is incomplete — a good-enough solution
 
 ## the problem continuum
-
-![Screenshot 2024-08-30 at 12.47.42 PM.png](human%20information%20processing%203c5ad3730c3b4269a8e64daf7a4acb82/Screenshot_2024-08-30_at_12.47.42_PM.png)
 
 - **well-defined problem**: full specification of the provided data, actions, strategies, and goal states, which **can be represented in a problem space**
 
@@ -101,27 +90,16 @@ Tags: LEC
 
 ### problem solving strategies
 
-| intelligence | rule following
-difference reduction
-
-means-end analysis
-forward and backward reasoning |
-| --- | --- |
-| creativity | analogy 
-random trial and error
-
-creative problem solving |
+| **concept**      | **description**                                                                                     |
+|-------------------|-----------------------------------------------------------------------------------------------------|
+| **intelligence**  | - rule following <br> - difference reduction <br> - means-end analysis <br> - forward and backward reasoning |
+| **creativity**    | - analogy <br> - random trial and error <br> - creative problem solving                              |  
 
 - **difference reduction**: each sub goal that is achieved **brings the current problem state closer to the state goal**
 
 - **means-end analysis**: for each sub goal, **a different procedure decreases the difference between current problem state and goal state** even if this temporarily leads away from the goal state
 
-![Screenshot 2024-08-30 at 12.55.33 PM.png](human%20information%20processing%203c5ad3730c3b4269a8e64daf7a4acb82/Screenshot_2024-08-30_at_12.55.33_PM.png)
-
 - **forward and backward reasoning**: recursive inference principles **used to solve well-defined problems, which explicitly have formal limitations**
-    
-    ![Screenshot 2024-08-30 at 12.57.10 PM.png](human%20information%20processing%203c5ad3730c3b4269a8e64daf7a4acb82/Screenshot_2024-08-30_at_12.57.10_PM.png)
-    
 
 - **logic reasoning**: only allowed for **known problems** (must have 1 to 1 relationships)
     - e.g if cause, then effect or if effect, then cause
@@ -129,8 +107,6 @@ creative problem solving |
 - **analogical reasoning**: looks for **relations between features and categories** that are similar to relations between other features and categories
     - e.g. “the clock signal is the heartbeat of your computer” — relation: pulse
 - **case-based reasoning**: a type of analogical reasoning
-    
-    ![Screenshot 2024-08-30 at 1.00.37 PM.png](human%20information%20processing%203c5ad3730c3b4269a8e64daf7a4acb82/Screenshot_2024-08-30_at_1.00.37_PM.png)
     
     - **old solution: old problem::adapted solution: new problem**
 - **random trial-and-error**: a low level problem solving strategy but commonly found with non-expert users
@@ -160,8 +136,6 @@ creative problem solving |
     | structural level | solutions directed to fixing **loss of structure and managing processes and mechanisms of atoms and ions**  |
     | symbolic level | solutions derived from **logistics, reasoning, and abstraction** |
 
-![Screenshot 2024-09-04 at 11.23.11 AM.png](human%20information%20processing%203c5ad3730c3b4269a8e64daf7a4acb82/Screenshot_2024-09-04_at_11.23.11_AM.png)
-
 - how you **represent a problem** to your client, begs its solution
     - each level of aggregating the data **requires its own form of representation**
 
@@ -180,8 +154,6 @@ creative problem solving |
 ### associative empiricist
 
 - takes **first person perspective** to go into concretization
-
-![Screenshot 2024-09-04 at 11.30.56 AM.png](human%20information%20processing%203c5ad3730c3b4269a8e64daf7a4acb82/Screenshot_2024-09-04_at_11.30.56_AM.png)
 
 ## output
 
@@ -205,16 +177,10 @@ creative problem solving |
 - **derived from shannon’s theory of information systems**
 - predicts the time required to **rapidly move from a starting position to a final target area**
 - models the act of pointing
-
 - in the real world (e.g. hand or finger, eye tracking)
-
 - on computer (e.g. mouse or joystick)
-
 - task has a certain difficulty (number of bits)
-
 - channel has a certain bandwidth (second/bit)
-
-![Screenshot 2024-09-04 at 11.50.25 AM.png](human%20information%20processing%203c5ad3730c3b4269a8e64daf7a4acb82/Screenshot_2024-09-04_at_11.50.25_AM.png)
 
 ### index of difficulty
 
@@ -224,7 +190,6 @@ creative problem solving |
 - movement to target requires less time when distance to target A decreases
 - **error tolerance of target B increases**— with a closer target or one of larger size
 
-![Screenshot 2024-09-04 at 11.53.07 AM.png](human%20information%20processing%203c5ad3730c3b4269a8e64daf7a4acb82/Screenshot_2024-09-04_at_11.53.07_AM.png)
 
 - time $Tpos$ needed to complete the task is linear with respect to ID
     - $Tpos = a + b*ID$
