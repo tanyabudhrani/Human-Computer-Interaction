@@ -1,8 +1,5 @@
 # language, communication, and dialogue
 
-Created: October 7, 2024 6:37 PM
-Tags: LEC
-
 # talking to machines
 
 - the fundamental difference between a computer and an ordinary machine is that a **computer can be approached through language**
@@ -342,9 +339,6 @@ Tags: LEC
         > argmax is a mathematical operation, **looking for the argument that yields the highest value** (the max) from a target function— finds the candidate with the **largest expected probability**
         > 
 - however, we would like to add in contextual information— given w, what is the most likely t?
-    
-    ![Screenshot 2024-10-14 at 2.11.49 PM.png](language,%20communication,%20and%20dialogue%20118b756f81228075b090e6de3e4f22f4/Screenshot_2024-10-14_at_2.11.49_PM.png)
-    
     - now it searches for the highest P, the most likely tag sequence $(T = t_1, ..., t_n)$, given a certain word sequence $(W = w_1, ..., w_n)$
 - yet, **ineffective if related words are separated in the text**
 - looks back, does not predict context/words about to come
@@ -355,8 +349,6 @@ Tags: LEC
     - tokenization is identifying words, numbers, operators, etc
 - **predicting a missing word** like in the example is called ‘**masked language modeling**’
 - the word with the highest probability is not always the best choice— therefore, **some randomness is added** (or ‘temperature’) to be able to vary the wording
-
-![Screenshot 2024-10-14 at 2.14.02 PM.png](language,%20communication,%20and%20dialogue%20118b756f81228075b090e6de3e4f22f4/Screenshot_2024-10-14_at_2.14.02_PM.png)
 
 ## tokenization
 
@@ -369,29 +361,19 @@ Tags: LEC
 - **generative**: it **generates output**
 - **pre-trained**: uses **large corpora of text** with **human feedback**
 
-![Screenshot 2024-10-14 at 2.15.38 PM.png](language,%20communication,%20and%20dialogue%20118b756f81228075b090e6de3e4f22f4/Screenshot_2024-10-14_at_2.15.38_PM.png)
-
 ## transformers
 
-- **transformer**: a neural-network architecture, trying to **connect tokens to one another based on a similarity measure**
-    
-    ![Screenshot 2024-10-14 at 2.16.09 PM.png](language,%20communication,%20and%20dialogue%20118b756f81228075b090e6de3e4f22f4/Screenshot_2024-10-14_at_2.16.09_PM.png)
-    
+- **transformer**: a neural-network architecture, trying to **connect tokens to one another based on a similarity measure**   
 
 ### positional encoding
 
-- positional encoding defines the **location of a token in a sentence** or other sequence and **gives that position a unique value**
-    
-    ![Screenshot 2024-10-14 at 2.16.46 PM.png](language,%20communication,%20and%20dialogue%20118b756f81228075b090e6de3e4f22f4/Screenshot_2024-10-14_at_2.16.46_PM.png)
-    
+- positional encoding defines the **location of a token in a sentence** or other sequence and **gives that position a unique value**    
     - now different attention mechanisms can operate on that encoded piece of text
 
 ### attention modules
 
 - **regular attention (early approach)**: **connects an input to an output sequence** (A co-occurs with B)
     - the **further away words are, the harder it becomes to link them together**— so proximity is not good to account for semantic association
-        
-        ![Screenshot 2024-10-14 at 2.17.54 PM.png](language,%20communication,%20and%20dialogue%20118b756f81228075b090e6de3e4f22f4/Screenshot_2024-10-14_at_2.17.54_PM.png)
         
 
 - **self-attention (provides some context)**: focuses on a **single sequence / sentence**
@@ -405,11 +387,6 @@ Tags: LEC
 - **multi-head attention**: each analysis or ‘head’ **runs in parallel, paying attention to different aspects of the sentence**
     - multi-head attention is a parallel process, estimating similarity among tokens that are then concatenated (weighted sum) for the most probable output
     
-
-![Screenshot 2024-10-14 at 2.19.55 PM.png](language,%20communication,%20and%20dialogue%20118b756f81228075b090e6de3e4f22f4/Screenshot_2024-10-14_at_2.19.55_PM.png)
-
-![Screenshot 2024-10-14 at 2.20.28 PM.png](language,%20communication,%20and%20dialogue%20118b756f81228075b090e6de3e4f22f4/Screenshot_2024-10-14_at_2.20.28_PM.png)
-
 ## GELU activation function
 
 - in its transformer network, GPT also uses a special activation function
@@ -424,8 +401,6 @@ Tags: LEC
 - an activation function **calculates the weighted sum while adding bias**
 - when predictions are wrong, **backpropagations return the error to the hidden layers** so to **adjust the weights**
 
-![Screenshot 2024-10-14 at 2.23.08 PM.png](language,%20communication,%20and%20dialogue%20118b756f81228075b090e6de3e4f22f4/Screenshot_2024-10-14_at_2.23.08_PM.png)
-
 ### vanishing gradient problem
 
 - we have **weights connected to words (x)** and the weights tell the next layer of the network **how much the output (y) is affected by that words**
@@ -433,9 +408,6 @@ Tags: LEC
     - gradients can be adjusted to **minimize error (= maximize model performance)**
 - **backpropagation** calculates the **gradients of the error (loss) for each weight**
 - **it does that one layer at a time**, going backward from the layer closest to the output (y) to the layer closest to the input (x)
-
-![Screenshot 2024-10-14 at 2.24.13 PM.png](language,%20communication,%20and%20dialogue%20118b756f81228075b090e6de3e4f22f4/Screenshot_2024-10-14_at_2.24.13_PM.png)
-
 - **gradients become smaller and smaller with each layer** we go back, and the **weights in the first layers (close to x) are hardly updated anymore**
 - activation functions cause the **vanishing gradient**
     - **sigmoid or hyperbolic tangent (tanh)** **compress input into a small range** (sigmoid: 0 to 1; tanh: -1 to 1)— through the layers, gradients become smaller and sometimes disappear
@@ -443,9 +415,6 @@ Tags: LEC
 > sigmoid and tanh suffer from vanishing gradients, which are solved by using ReLU or as GPT does by using the GELU activation function
 > 
 - **logistic regression (sigmoid function) pushes data either in or out of class**
-
-![Screenshot 2024-10-14 at 2.26.26 PM.png](language,%20communication,%20and%20dialogue%20118b756f81228075b090e6de3e4f22f4/Screenshot_2024-10-14_at_2.26.26_PM.png)
-
 - thus, **a large data set becomes a small data set with values between 0 and 1** (the ‘derivative of the activation function’)
 - therefore, the sigmoid turns big **differences between input values** (e.g., 1 and 100) into small differences (e.g., .1 and .9)
     - this is called **the ‘derivative’ of the activation function** and sigmoid and tanh make the derivative small
@@ -471,8 +440,6 @@ Tags: LEC
 - most older activation functions, ReLU included, are not curvi-linear and handle complex data sets less well
 - GELU is more stochastic, is more probabilistic, and therefore **can handle complexity better**
 - **ReLU gives linear results, GELU produces non-linear results**
-
-![Screenshot 2024-10-14 at 2.30.49 PM.png](language,%20communication,%20and%20dialogue%20118b756f81228075b090e6de3e4f22f4/Screenshot_2024-10-14_at_2.30.49_PM.png)
 
 - activation function to approximate a Gaussian cumulative distribution function (CDF): **differentiable everywhere, enabling efficient gradient-based (= error) optimization**
     - **GELUs more easily approximate complicated functions** than can ReLUs or ELUs— **GELU has a probabilistic interpretation**
