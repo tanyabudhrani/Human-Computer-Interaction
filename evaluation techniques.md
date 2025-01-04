@@ -1,10 +1,5 @@
 # evaluation techniques
 
-Created: November 4, 2024 1:12 PM
-Tags: LEC
-
-![Screenshot 2024-11-04 at 1.17.09 PM.png](evaluation%20techniques%20134b756f8122803090f3d2a9da5d5386/Screenshot_2024-11-04_at_1.17.09_PM.png)
-
 ### abstract and obtrusive
 
 - **generalizable**
@@ -102,25 +97,14 @@ Tags: LEC
         - compare two systems on **speed or number of errors**
     - **effort**: **difficulty, ease of use** but also **energy consumption**
 
-![Screenshot 2024-11-04 at 1.37.15 PM.png](evaluation%20techniques%20134b756f8122803090f3d2a9da5d5386/Screenshot_2024-11-04_at_1.37.15_PM.png)
 
-| effectiveness | - number of tasks completed
-- **percentage of task completion** |
-| --- | --- |
-| efficiency | - **time to complete specific tasks**
-- accuracy (answer to question true or false)
-- number of errors
-- ratio of **successful interactions to errors**
-- number of times user **sidetracked from intended task** |
-| effort | - **number of deviations** (extra clicks) from optimal path
-- **time spent recovering from errors**
-- number of commands/features used
-- number of features user can remember after test
-- fatigue (physically, cognitively) |
-| usability | - **how often help system is used**
-- time spent using help
-- ease of use |
-| satisfaction | ratio of **positive to negative user comments** |
+| **metric**      | **description**                                                                                          |
+|------------------|--------------------------------------------------------------------------------------------------------|
+| **effectiveness** | - number of tasks completed  <br> - **percentage of task completion**                                  |
+| **efficiency**    | - **time to complete specific tasks**  <br> - accuracy (true/false answers to questions) <br> - number of errors <br> - ratio of **successful interactions to errors**  <br> - number of times user **sidetracked from intended task** |
+| **effort**        | - **number of deviations** (extra clicks) from the optimal path  <br> - **time spent recovering from errors**  <br> - number of commands/features used  <br> - number of features the user can remember after the test  <br> - fatigue (physical and cognitive) |
+| **usability**     | - **how often the help system is used**  <br> - time spent using help  <br> - ease of use              |
+| **satisfaction**  | - ratio of **positive to negative user comments**                                                     |
 
 ### dependent variables: quantitative, qualitative
 
@@ -134,8 +118,6 @@ Tags: LEC
     - measurements are more **precise and less subjective**
     - gives us better **controllable results, usually more structured, more uniform**, but less ‘rich’
     - **more formal data**, allowing for statistical analyses
-
-![Screenshot 2024-11-04 at 1.40.26 PM.png](evaluation%20techniques%20134b756f8122803090f3d2a9da5d5386/Screenshot_2024-11-04_at_1.40.26_PM.png)
 
 ### design and engineering
 
@@ -157,26 +139,12 @@ Tags: LEC
 
 ## measures
 
-| nominal  | **attributes are named**, weakest form of measurement | • categories, classes, labels, tags, names
-• **classifies data points into named or numbered but unordered categories** (e.g., user groups, gender, religion, education, region)
-• **allowable manipulations**: **number of data points in a category**
-• **statistics**: number of cases in each category, **most frequent category** |
-| --- | --- | --- |
-| ordinal | **distances between steps bear no meaning** | • classifies data points into ordered categories, **but differences between each category are unknown**
-    ◦ **ordered but unequal steps**
-    ◦ distances between steps bear no meaning
-• **allowable manipulations**: counting number of data points in a given category, **merging adjacent classes** (e.g., number of users who are satisfied with your design)
-• **statistics**: **median, mode, percentiles** (30% of users were satisfied) |
-| interval | **distances are meaningful** | • similar to ratio scale, **but the “zero” point is arbitrary**
-• ordered but with **equal steps** (distances are meaningful)
-• **allowable manipulations**: **add, subtract**
-    ◦ sometimes, ratios (multiply, divide) may not be meaningful
-• **allowable statistics**: **mean, range, variance, standard deviation** |
-| ratio | **absolute 0**, strongest measurement | • **absolute non-arbitrary zero**, strongest measurement
-• classifies data points into ordered categories
-• **equal differences between categories / steps**
-• **allowable manipulations**: **add, subtract, multiply, divide**
-• **allowable statistics**: **mean, range, variance, standard deviation** |
+| **scale**      | **key characteristics**                                                                                 | **details**                                                                                             |
+|-----------------|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| **nominal**     | **attributes are named**, weakest form of measurement                                                  | - categories, classes, labels, tags, names <br> - **classifies data points into named or numbered but unordered categories** (e.g., user groups, gender, religion, education, region) <br> - **allowable manipulations**: counting the number of data points in a category <br> - **statistics**: number of cases in each category, **most frequent category** |
+| **ordinal**     | **distances between steps bear no meaning**                                                            | - **classifies data points into ordered categories**, but **differences between each category are unknown** <br> - ordered but with **unequal steps** <br> - **allowable manipulations**: counting the number of data points in a category, merging adjacent classes (e.g., number of users satisfied with your design) <br> - **statistics**: **median, mode, percentiles** (e.g., 30% of users were satisfied) |
+| **interval**    | **distances are meaningful**                                                                           | - similar to the ratio scale but with an **arbitrary zero point** <br> - ordered with **equal steps** (distances are meaningful) <br> - **allowable manipulations**: **add, subtract** (ratios like multiply/divide may not be meaningful) <br> - **statistics**: **mean, range, variance, standard deviation** |
+| **ratio**       | **absolute zero**, strongest form of measurement                                                       | - features an **absolute non-arbitrary zero point**, making it the strongest measurement scale <br> - classifies data points into ordered categories <br> - **equal differences between categories/steps** <br> - **allowable manipulations**: **add, subtract, multiply, divide** <br> - **statistics**: **mean, range, variance, standard deviation** |
 
 > **variance**: how much **each score is different from the mean** and thus **from every other value in the data set**
 > 
@@ -216,16 +184,13 @@ Tags: LEC
     - **formative** means ‘**during design**’— **information helps shape the next iteration**
     - **summative** means ‘**after design**’— **information is for final evaluation** after rollout
 
-| observations | **heuristic testing** > **experts test rules of thumb**
 
-**cognitive walkthrough** > **expert acts as typical user**
-
-**thought listing** > **concurrent, retrospective, constructive** |
-| --- | --- |
-| focus groups | moderator-guided discussion |
-| interviews | unstructured
-structured (semi) |
-| lab experiments | work if **there is a specific thing that we want to assess** (e.g., testing a hypothesis), answering specific questions about targeted parts of a theory or system |
+| **method**         | **description**                                                                                     |
+|---------------------|-----------------------------------------------------------------------------------------------------|
+| **observations**    | - **heuristic testing**: experts test rules of thumb <br> - **cognitive walkthrough**: expert acts as a typical user <br> - **thought listing**: concurrent, retrospective, constructive |
+| **focus groups**    | moderator-guided discussion                                                                        |
+| **interviews**      | - unstructured <br> - structured or semi-structured                                                |
+| **lab experiments** | effective when **there is a specific thing to assess** (e.g., testing a hypothesis), answering specific questions about targeted parts of a theory or system |
 
 ## heuristic testing
 
@@ -292,20 +257,12 @@ structured (semi) |
 ### interviews
 
 - **oriented at the individual**, complement of focus groups
-    
-    
-    | unstructured | **open format**, like a normal conversation, **no questions prepared**, but topic defined
-    
-    good for **sensitive topics** (e.g., robots against loneliness and depression) |
-    | --- | --- |
-    | semi-structured | has an **interview protocol, guided conversation**, has **structure as well as options built in** to go into specific details, aspects, issues that were unforeseen |
-    | structured | almost like a **questionnaire but face-to-face**
-    
-    **strict interview protocol**
-    
-    may be felt as rigid but is **good if specific questions / hypotheses should be investigated**
-    
-    no options to **explore unforeseen topics** |
+
+| **type**            | **description**                                                                                                           |
+|----------------------|---------------------------------------------------------------------------------------------------------------------------|
+| **unstructured**     | - **open format**, like a normal conversation, with **no prepared questions**, but a defined topic <br> - good for **sensitive topics** (e.g., robots against loneliness and depression) |
+| **semi-structured**  | - includes an **interview protocol** and guided conversation <br> - combines **structure with flexibility** to explore specific details, aspects, or unforeseen issues |
+| **structured**       | - almost like a **questionnaire but conducted face-to-face** <br> - follows a **strict interview protocol** <br> - may feel rigid but is **ideal for investigating specific questions or hypotheses** <br> - no options to **explore unforeseen topics** |  
 
 ### lab and field experiments
 
@@ -393,14 +350,12 @@ as said, any formal or informal test type can be **used for formative or summati
 ## confounds
 
 - happen when variables that were **thought to be independent actually vary according to some other factor in the experiment** (e.g., attitude, profession, or a novelty effect)
-    
-    
-    | experience factors | people have **more/less relevant experience with one condition than the other**
-    
-    **people in one group have more/less experience than the other group**— usually happens when group division is not done properly in between-subject tests |
-    | --- | --- |
-    | experimenter/subject bias | **experimenter subconsciously treats subjects differently, or when subjects have different motivation levels**  |
-    | uncontrolled factors | **time of day, system load**, but most notoriously: **convenience sampling online** |
+
+| **factor**                 | **description**                                                                                           |
+|----------------------------|-----------------------------------------------------------------------------------------------------------|
+| **experience factors**      | - people have **more/less relevant experience with one condition than the other** <br> - occurs when **people in one group have more/less experience than the other group**, usually due to improper group division in between-subject tests |
+| **experimenter/subject bias** | - occurs when the **experimenter subconsciously treats subjects differently** or when **subjects have varying motivation levels** |
+| **uncontrolled factors**    | - includes external influences such as **time of day, system load**, or **convenience sampling online** (most notorious) |  
 
 ## order effects
 
@@ -421,8 +376,6 @@ as said, any formal or informal test type can be **used for formative or summati
 - control the effects of independent variable X on dependent variable Y so that **effects are distributed randomly among conditions (groups)**
 - **randomly assign people to different groups** (this addresses the **experience effect**, best would be equal distributions)
 - all of this **does not remove effects due to unknown differences**, but ensures that any effect due to unknown differences among participants or conditions is **random** (and will be **tackled through statistics**)
-
-![Screenshot 2024-11-09 at 10.40.21 PM.png](evaluation%20techniques%20134b756f8122803090f3d2a9da5d5386/Screenshot_2024-11-09_at_10.40.21_PM.png)
 
 ### preventing confounding and order effects through counter-balancing
 
@@ -455,9 +408,7 @@ as said, any formal or informal test type can be **used for formative or summati
 - **to find the relation between similarity and liking, plot the data points**
     - **do curve fitting, using SPSS**: analyze > regression > curve estimation
     - **excel**: X-Y scatter plot, right click curve, add trend line, polynomial, order 2 then, options > display equation on chart
-    
-    ![Screenshot 2024-11-09 at 10.45.35 PM.png](evaluation%20techniques%20134b756f8122803090f3d2a9da5d5386/Screenshot_2024-11-09_at_10.45.35_PM.png)
-    
+   
 
 ### confirmatory data analysis
 
@@ -482,8 +433,6 @@ as said, any formal or informal test type can be **used for formative or summati
 - **mean**, written as M, µ, or X(X-bar)
     - X stands for the **scores in the distribution of the variable X**
     - N or n stands for the **number of scores in a distribution**
-    
-    ![Screenshot 2024-11-09 at 10.53.12 PM.png](evaluation%20techniques%20134b756f8122803090f3d2a9da5d5386/Screenshot_2024-11-09_at_10.53.12_PM.png)
     
 
 - **mode**
@@ -511,17 +460,10 @@ as said, any formal or informal test type can be **used for formative or summati
     - N or n stands for the number of scores in a distribution
 - standard deviation (σ, S, or SD)
     - the square root of variance
-    
-    ![Screenshot 2024-11-09 at 10.56.10 PM.png](evaluation%20techniques%20134b756f8122803090f3d2a9da5d5386/Screenshot_2024-11-09_at_10.56.10_PM.png)
-    
-
-![Screenshot 2024-11-09 at 10.56.54 PM.png](evaluation%20techniques%20134b756f8122803090f3d2a9da5d5386/Screenshot_2024-11-09_at_10.56.54_PM.png)
-
+ 
 ## mean and variance
 
 - there are two separate issues here: **the mean, or the average, and the variability, or the standard deviation**
-    
-    ![Screenshot 2024-11-09 at 10.57.20 PM.png](evaluation%20techniques%20134b756f8122803090f3d2a9da5d5386/Screenshot_2024-11-09_at_10.57.20_PM.png)
     
 - the difference between the means of the two curves is the same in all three above situations— however, they certainly do not look alike
 
@@ -551,8 +493,6 @@ as said, any formal or informal test type can be **used for formative or summati
 - calculates a t-value which gives us the signal-noise ratio
 - **if this ratio is high enough** (we have enough “signal” to compensate for the “noise”), then we can **be more confident that the signal is trustworthy**
 
-![Screenshot 2024-11-09 at 11.02.48 PM.png](evaluation%20techniques%20134b756f8122803090f3d2a9da5d5386/Screenshot_2024-11-09_at_11.02.48_PM.png)
-
 ### different types
 
 - **independent samples t-test** (a.k.a., two-samples t-test)
@@ -565,9 +505,6 @@ as said, any formal or informal test type can be **used for formative or summati
 ### t-test: one sample
 
 - tests the **mean of a single group** against a **known value**
-    
-    ![Screenshot 2024-11-09 at 11.04.40 PM.png](evaluation%20techniques%20134b756f8122803090f3d2a9da5d5386/Screenshot_2024-11-09_at_11.04.40_PM.png)
-    
 
 ### t-test: paired samples
 
@@ -575,8 +512,6 @@ as said, any formal or informal test type can be **used for formative or summati
 - interestingly, **paired samples t-test and one sample t-test are mathematically equivalent**
     - **known mean is 0**
     - **single group is now the group of the differences**
-
-![Screenshot 2024-11-09 at 11.05.24 PM.png](evaluation%20techniques%20134b756f8122803090f3d2a9da5d5386/Screenshot_2024-11-09_at_11.05.24_PM.png)
 
 ## role of the normal distribution
 
@@ -600,8 +535,6 @@ as said, any formal or informal test type can be **used for formative or summati
         - but that is **pretty arbitrary and depends on the situation**
 - **degrees of freedom are the maximum number of values that you can freely vary in a data sample while keeping the same mean**
     
-    ![Screenshot 2024-11-09 at 11.08.54 PM.png](evaluation%20techniques%20134b756f8122803090f3d2a9da5d5386/Screenshot_2024-11-09_at_11.08.54_PM.png)
-    
     > N = 200
     male, n1 = 98
     female, n2 = 102
@@ -611,9 +544,7 @@ as said, any formal or informal test type can be **used for formative or summati
     > effect of males versus females, t(df) = t(198) = 5.49 
     > 
 - put more formally, if you know X with the sample size n and if you know the scores X1, X2, ..., Xn – 1, then you can calculate the value of Xn
-    
-    ![Screenshot 2024-11-09 at 11.10.38 PM.png](evaluation%20techniques%20134b756f8122803090f3d2a9da5d5386/Screenshot_2024-11-09_at_11.10.38_PM.png)
-    
+      
 - level of significance, then, **is the t-statistics in relation to the degrees of freedom**
     - **more degrees of freedom and the t-value can be lower to establish a significant effect**
     - fewer degrees of freedom and the t-value has to be very high to establish a significant effect
@@ -625,8 +556,6 @@ as said, any formal or informal test type can be **used for formative or summati
     - for instance, a p-value of 0.30 means that we are **30% sure that there is no significant difference between the two datasets**
 - therefore, **we reject the null hypothesis if the p-value is less than or equal to our required significance value**— i.e. the amount of error that we're willing to tolerate under the level of confidence that we require
     - for instance, if we are using a significance value of 0.05 (or we want a confidence of 95%), we reject the null hypothesis if the p-value is 0.05 or less
-
-![Screenshot 2024-11-09 at 11.14.45 PM.png](evaluation%20techniques%20134b756f8122803090f3d2a9da5d5386/Screenshot_2024-11-09_at_11.14.45_PM.png)
 
 ### some limitations
 
@@ -651,8 +580,6 @@ as said, any formal or informal test type can be **used for formative or summati
 - effects of the level of significance
     - if we set our **confidence level too high** (e.g., p < 0.0001), **we run a greater chance of Type 2 errors**
     - if we set our **confidence level too low** (e.g., p > 0.1), **then we run a greater chance of Type 1 errors**
-
-![Screenshot 2024-11-09 at 11.17.13 PM.png](evaluation%20techniques%20134b756f8122803090f3d2a9da5d5386/Screenshot_2024-11-09_at_11.17.13_PM.png)
 
 - in most scientific studies, type 1 errors are generally considered to be worse because the hypothesis is the current state-of-the-art theory— therefore, **people expect a high confidence level if you’re going to overturn it**
     - for example, if it’s “presumed innocent till proven guilty,” you need an overwhelming vote in a jury to convict a serious crime
